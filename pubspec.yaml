@@ -1,0 +1,66 @@
+name: form_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # Responsive UI
+  flutter_screenutil: ^5.9.3
+  # Icon App
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - Assets/Images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: Assets/Fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: Assets/Fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: Assets/Fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: Assets/Fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: Assets/Fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: Assets/Fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: Assets/Fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: Assets/Fonts/Poppins-ExtraLight.ttf
+          weight: 200
+
+    - family: Roboto
+      fonts:
+        - asset: Assets/Fonts/Roboto-Black.ttf
+          weight: 900
+        - asset: Assets/Fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: Assets/Fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: Assets/Fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: Assets/Fonts/Roboto-Light.ttf
+          weight: 300
+        - asset: Assets/Fonts/Roboto-Thin.ttf
+          weight: 100
+
